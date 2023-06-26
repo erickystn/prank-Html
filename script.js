@@ -1,7 +1,7 @@
 const changePlace = (e) => {
   document.getElementById("not").style.position = "absolute";
   document.getElementById("not").style.top = `${Math.random() * 91}%`;
-  document.getElementById("not").style.left = `${Math.random() * 91}%`;
+  document.getElementById("not").style.left = `${Math.random() * 85}%`;
 };
 
 document.getElementById("not").addEventListener("mouseover", changePlace);
